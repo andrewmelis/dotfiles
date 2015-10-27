@@ -1,0 +1,52 @@
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd Downloads/
+ls
+cd tomorrow-theme-master/
+ls
+cd GNU\ Emacs/
+ls
+cat tomorrow-night-eighties-theme.el
+sudo apt-get install curl
+ls
+ls
+mkdir bin
+ls
+mv lein bin/
+export PATH=$PATH:~/bin
+cd bin/
+chmod 755 lein 
+lein
+./lein 
+ls
+cat lein 
+ls
+curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > lein 
+ls
+cat lein 
+lein
+cd ..
+export PATH=$PATH:~/bin/
+ls
+echo $PATH
+lein
+ls
+chmod 755 bin/lein 
+lein
+ls
+mkdir Development
+cd Development/
+lein new test-app
+ls
+ls
+cd
+ls
+cd development/
+ls
+lein -v
+lein --version
+lein

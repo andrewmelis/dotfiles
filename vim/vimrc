@@ -1,0 +1,88 @@
+"used to start pathogen mods at startup
+"see github: https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
+call pathogen#helptags()
+
+syntax enable
+
+"solarized
+"set background=light
+set background=dark
+colorscheme tomorrow-night-eighties
+
+"set split behavior to open new window to right/below
+set splitright
+set splitbelow
+
+"no wrapping!
+set nowrap
+
+"set ruler 
+set ruler
+
+"keep status bar on all the time
+set laststatus=2
+
+"set fold behavior to syntax, see http://vim.wikia.com/wiki/Folding
+set foldmethod=syntax
+set foldlevelstart=20
+
+"set path, see http://vim.wikia.com/wiki/Using_tab_pages
+"set path=.,,**
+
+"show line numbers
+set number
+
+"set tabs to be just 2 spaces
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
+
+set autoindent	    "matches indent of previous line
+set smartindent	    "smart indents based on code
+
+set visualbell	    "no noises
+set noerrorbells    "no noises
+
+filetype indent on
+
+"set mouse enabled
+set mouse=a
+
+"set share system clipboard 
+set clipboard=unnamed
+
+"highlight matching [{()}]
+set showmatch
+
+"provide graphical menu for command menu
+set wildmenu
+
+"search as characters are entered
+set incsearch
+
+"highlight matches
+set hlsearch
+
+"turn off swp files
+set noswapfile
+
+"move vertically by visual line instead of default
+nnoremap j gj
+nnoremap k gk
+
+"make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
+
+"but don't wrap after 80 chars
+set formatoptions-=t
+
+"set cursor shape to block during normal and bar during insert
+"DOESN"T QUITE WORK. FIXME
+if $TERM_PROGRAM =~ "iTerm"
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+endif
+
