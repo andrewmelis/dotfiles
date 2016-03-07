@@ -50,3 +50,30 @@ ls
 lein -v
 lein --version
 lein
+ls
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+TEST=5 python test.py
+pydoc twitter.Api
+python test.py
+python test.py
+python --version
+python test.py
+PLAYERS="LeBron James,Kyrie Irving,Kevin Love" python nba_vote.py
+PLAYERS="LeBron James,Kyrie Irving,Kevin Love" python nba_vote.py
+ls
+mkdir script
+touch script/figwheel.clj
+mkdir -p resources/public
+touch resources/public/index.html
+mkdir -p src/om_tutorial
+touch src/om_tutorial/core.cljs
+http google.com
+http www.raise.com
+http https://www.raise.com
