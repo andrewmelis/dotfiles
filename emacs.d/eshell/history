@@ -77,3 +77,6 @@ touch src/om_tutorial/core.cljs
 http google.com
 http www.raise.com
 http https://www.raise.com
+ls
+ls -al
+ls
