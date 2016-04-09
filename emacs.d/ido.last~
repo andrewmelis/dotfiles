@@ -1,0 +1,259 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/andrew/development/go/src/github.com/andrewmelis/" . "hello/")
+ ("/home/andrew/dotfiles/emacs.d/" . "customizations/")
+ ("/home/andrew/dotfiles/" . "emacs.d/")
+ ("/home/andrew/development/go/src/gopl.io/ch1/" . "dup2/")
+ ("/home/andrew/development/go/src/gopl.io/" . "ch1/")
+ ("/home/andrew/development/go/src/github.com/" . "andrewmelis/")
+ ("/home/andrew/development/go/src/" . "github.com/")
+ ("/home/andrew/development/go/" . "src/")
+ ("/home/andrew/development/took-my-pill/app/views/" . "test_thingies/")
+ ("/home/andrew/development/took-my-pill/config/" . "locales/")
+ ("/home/andrew/development/took-my-pill/db/" . "migrate/")
+ ("/home/andrew/development/took-my-pill/app/" . "views/")
+ ("/home/andrew/development/took-my-pill/" . "app/")
+ ("/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/" . "client/")
+ ("/home/andrew/development/stockfighter/chock-a-block/src/" . "chock_a_block/")
+ ("/home/andrew/development/stockfighter/chock-a-block/" . "src/")
+ ("/home/andrew/development/stockfighter/" . "chock-a-block/")
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/src/nba_twitter_pbp/" . "components/")
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/src/" . "nba_twitter_pbp/")
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/" . "src/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/unit/" . "recipes/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/" . "unit/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/helpers/" . "serverspec/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/default/" . "serverspec/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/" . "helpers/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/" . "integration/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/templates/" . "default/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/" . "spec/")
+ ("/home/andrew/development/chef-tutorial/cookbooks/" . "learn_chef_apache2/")
+ ("/home/andrew/development/chef-tutorial/" . "cookbooks/")
+ ("/home/andrew/development/om-tutorial/src/" . "om_tutorial/")
+ ("/home/andrew/development/om-tutorial/resources/" . "public/")
+ ("/home/andrew/development/om-tutorial/" . "src/")
+ ("/home/andrew/development/nba-stream/nba-harvester/src/" . "nba_harvester/")
+ ("/home/andrew/development/nba-stream/nba-harvester/" . "src/")
+ ("/home/andrew/development/nba-stream/" . "nba-twitter-pbp/")
+ ("/home/" . "andrew/")
+ ("/home/andrew/development/testapp/src/" . "testapp/")
+ ("/home/andrew/development/testapp/" . "src/")
+ ("/home/andrew/development/" . "go/")
+ ("/home/andrew/.emacs.d/" . "customizations/")
+ ("/home/andrew/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/andrew/dotfiles/emacs.d/customizations/"
+ "/home/andrew/.emacs.d/customizations/"
+ "/home/andrew/development/go/src/github.com/andrewmelis/hello/"
+ "/home/andrew/development/go/src/gopl.io/ch1/dup2/"
+ "/home/andrew/development/go/src/gopl.io/ch1/"
+ "/home/andrew/development/go/src/gopl.io/ch1/dup1/"
+ "/home/andrew/development/go/src/gopl.io/ch1/echo2/"
+ "/home/andrew/development/go/src/gopl.io/ch1/echo3/"
+ "/home/andrew/development/go/src/gopl.io/ch1/echo1/"
+ "/home/andrew/development/took-my-pill/app/views/pill_taken_events/"
+ "/home/andrew/development/took-my-pill/app/views/test_thingies/"
+ "/home/andrew/development/took-my-pill/db/migrate/"
+ "/home/andrew/development/took-my-pill/app/models/"
+ "/home/andrew/development/took-my-pill/config/locales/"
+ "/home/andrew/development/took-my-pill/app/controllers/"
+ "/home/andrew/development/took-my-pill/config/"
+ "/home/andrew/development/nba-stream/nba-twitter-pbp/src/nba_twitter_pbp/components/"
+ "/home/andrew/development/nba-stream/nba-twitter-pbp/"
+ "/home/andrew/development/nba-stream/nba-twitter-pbp/src/nba_twitter_pbp/"
+ "/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/"
+ "/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/client/"
+ "/home/andrew/development/stockfighter/chock-a-block/"
+ "/home/andrew/development/stockfighter/ruby/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/unit/recipes/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/helpers/serverspec/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/default/serverspec/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/templates/default/"
+ "/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/recipes/"
+ "/home/andrew/development/chef-tutorial/"
+ "/home/andrew/development/stockfighter/java/"
+ "/home/andrew/development/om-tutorial/src/om_tutorial/"
+ "/home/andrew/development/om-tutorial/resources/public/"
+ "/home/andrew/development/om-tutorial/script/"
+ "/home/andrew/development/nbaasg/"
+ "/home/andrew/development/nba-stream/nba-harvester/src/nba_harvester/"
+ "/home/andrew/development/nba-stream/nba-harvester/"
+ "/home/andrew/development/nba-stream/"
+ "/home/andrew/.emacs.d/"
+ "/home/andrew/development/testapp/src/testapp/"
+ "/home/andrew/.lein/"
+ "/home/andrew/development/testapp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "ui.el"
+ "editing.el"
+ "hello.go"
+ "setup-ruby.el"
+ "main.go"
+ "test-input"
+ "_form.html.erb"
+ "index.html.erb"
+ "20160317131055_add_placebo_to_pill_taken_events.rb"
+ "20160201032954_create_pill_taken_events.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/andrew/.emacs.d/" (22279 12475 418334 656000) "session.1024c11ce0d288fba7144573348321804600000011900066" "session.1099b8954920c531a514545042381475600000012420035" "session.10e07e8e9fe18af4214536923388437600000011940041" "session.10ee98370668cd8d34144591875971099400000012260043" "auto-save-list/" "session.102a308fa576c65e7d145245791285688600000013350036" "places" "session.10775ad239adabfb69145480308054471900000012220040" "games/" "session.1024c11ce0d288fba7144573352185253100000011900067" "session.1081e9bb5f89b0038b14457477118854200000010290040" "README.md" "customizations/" ".recentf" "projectile-bookmarks.eld" ".smex-items" "session.1099b8954920c531a5145455603861046000000012420038" "session.10bc7a90a9652c4330144813335862627100000012030040" "session.104ba4ee41b1e382c4145821830416518600000011600095" "session.1021b3702a8072da1145487265188188400000012630036" "session.10ff6b46e561d629a514459138391287100000012360033" "session.10fb0f3c2172efc231144639544920206000000011810033" "../" "./" "ido.last~" "init.el" "session.1011ce656bbc1483ce145611441627185300000014040035" "session.10cd541fa1b5eb40f4145411821010977100000011780041" "session.10f30c4415552e0c00144581583399984400000012430034" "session.10775ad239adabfb69145479876996710900000012220039" "backups/" "session.10d68886f192b094f5145447463049187700000012300036" "themes/" "cider-history" "init.el~" "elpa/" "eshell/" "session.1013766af6e8ef54a144608459975450300000010240037" "session.10bc7a90a9652c4330144812818559870900000012030037" "session.1053f83045c1912619144612074968834000000012340034" "session.103622dc03f48a9fda145429775464351600000012210052" "ido.last" "url/")
+
+ ("/home/andrew/" (22280 16957 660088 672000) "Music/" ".viminfo" ".lesshst" ".chef/" ".m2/" ".gemrc" ".steam/" ".adobe/" ".heroku/" ".macromedia/" "Pictures/" ".gnome/" ".vagrant.d/" ".zsnes/" "Videos/" ".httpie/" ".netrc" ".bash_history" ".steampath" ".uplink/" "Public/" ".gitconfig" ".lein_history" ".fltk/" ".rbenv/" "Downloads/" ".lein/" ".gconf/" "bin/" ".ICEauthority" ".steampid" ".vim/" ".IdeaIC15/" ".java/" ".local/" ".desura/" ".config/" ".sudo_as_admin_successful" ".ssh/" ".gnupg/" "../" "./" "Desktop/" ".cache/" ".python_history" ".pulse-cookie" "VirtualBox VMs/" ".mime.types" ".tmux.conf" ".gem/" ".bash_logout" "development/" ".wine-pipelight/" ".profile" ".oracle_jre_usage/" ".pki/" "dotfiles/" "q" "Documents/" ".gradle/" "Templates/" ".bashrc" ".npm/" ".nano/" "Games/" ".apport-ignore.xml" ".emacs.d/" ".gnome2/" ".mozilla/")
+
+ ("/home/andrew/development/go/src/github.com/andrewmelis/hello/" (22279 11608 937818 771000) "hello.go" "../" "./")
+
+ ("/home/andrew/development/" (22269 57073 443019 722000) "go-test/" "6.824-golabs-2016/" "mantl/" "stockfighter/" "idea-IC-143.1821.5/" "metacritic-ios-scraper/" "java-test/" "midi/" "twitter-test/" "IdeaProjects/" "start_redshift" "nbaasg/" "../" "./" "hercules/" "core-async-example/" "chef-tutorial/" "kafka/" "voice-bc/" "om-tutorial/" "took-my-pill/" "testapp/" "oracle-jdk/" ".keys/" "go/" "bright-minds-center/" "nba-stream/")
+
+ ("/home/andrew/dotfiles/emacs.d/customizations/" (22062 63496 57769 798000) "shell-integration.el" "ui.el" "setup-helm-dash.el" "setup-rails.el" "ui.el~" "editing.el" "setup-clojure.el" "../" "./" "setup-deft.el" "setup-magit.el" "elisp-editing.el" "navigation.el" "misc.el" "setup-ruby.el" "setup-js.el" "setup-markup-modes.el")
+
+ ("/home/andrew/dotfiles/emacs.d/" (22253 32351 411122 219000) "session.1024c11ce0d288fba7144573348321804600000011900066" "session.1099b8954920c531a514545042381475600000012420035" "session.10e07e8e9fe18af4214536923388437600000011940041" "session.10ee98370668cd8d34144591875971099400000012260043" "auto-save-list/" "session.102a308fa576c65e7d145245791285688600000013350036" "places" "session.10775ad239adabfb69145480308054471900000012220040" "games/" "session.1024c11ce0d288fba7144573352185253100000011900067" "session.1081e9bb5f89b0038b14457477118854200000010290040" "README.md" "customizations/" ".recentf" "projectile-bookmarks.eld" ".smex-items" "session.1099b8954920c531a5145455603861046000000012420038" "session.10bc7a90a9652c4330144813335862627100000012030040" "session.104ba4ee41b1e382c4145821830416518600000011600095" "session.1021b3702a8072da1145487265188188400000012630036" "session.10ff6b46e561d629a514459138391287100000012360033" "session.10fb0f3c2172efc231144639544920206000000011810033" "../" "./" "init.el" "session.1011ce656bbc1483ce145611441627185300000014040035" "session.10cd541fa1b5eb40f4145411821010977100000011780041" "session.10f30c4415552e0c00144581583399984400000012430034" "session.10775ad239adabfb69145479876996710900000012220039" "backups/" "session.10d68886f192b094f5145447463049187700000012300036" "themes/" "cider-history" "init.el~" "elpa/" "eshell/" "session.1013766af6e8ef54a144608459975450300000010240037" "session.10bc7a90a9652c4330144812818559870900000012030037" "session.1053f83045c1912619144612074968834000000012340034" "session.103622dc03f48a9fda145429775464351600000012210052" "ido.last" "url/")
+
+ ("/home/andrew/dotfiles/" (22062 63233 281651 80000) "emacs.d/" ".git/" ".gitignore" "vim/" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/dup2/" (22263 7060 742163 801000) "main.go" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/" (22268 43000 346954 804000) "dup3/" "echo3/" "dup2/" "server1/" "dup1/" "server3/" "../" "./" "fetchall/" "lissajous/" "server2/" "echo1/" "echo2/" "test-input" "fetch/" "helloworld/")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/dup1/" (22263 7060 738163 776000) "main.go" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/echo3/" (22263 7060 742163 801000) "main.go" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/echo2/" (22263 7060 742163 801000) "main.go" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/ch1/echo1/" (22263 7060 742163 801000) "main.go" "../" "./")
+
+ ("/home/andrew/development/go/src/gopl.io/" (22263 7060 758163 899000) "ch13/" "ch5/" "README.md" ".git/" "ch7/" "../" "./" "ch4/" "ch3/" "ch2/" "ch11/" "ch9/" "ch10/" "ch1/" "ch8/" "ch6/" "ch12/")
+
+ ("/home/andrew/development/go/src/github.com/andrewmelis/" (22263 5912 560960 149000) "hello/" "../" "./")
+
+ ("/home/andrew/development/go/src/github.com/" (22263 5912 560960 149000) "andrewmelis/" "../" "./")
+
+ ("/home/andrew/development/go/src/" (22263 7059 326155 165000) "github.com/" "gopl.io/" "../" "./")
+
+ ("/home/andrew/development/go/" (22263 26140 715618 941000) "src/" "bin/" "../" "./")
+
+ ("/home/andrew/development/took-my-pill/app/views/test_thingies/" (22250 44381 122037 741000) "show.json.jbuilder" "new.html.erb" "_form.html.erb" "edit.html.erb" "show.html.erb" "../" "./" "index.html.erb" "index.json.jbuilder")
+
+ ("/home/andrew/development/took-my-pill/app/views/" (22250 44381 78037 755000) "layouts/" "../" "./" "test_thingies/" "pill_taken_events/")
+
+ ("/home/andrew/development/took-my-pill/app/views/pill_taken_events/" (22190 55854 193989 332000) "show.json.jbuilder" "new.html.erb" "_form.html.erb" "edit.html.erb" "show.html.erb" "../" "./" "index.html.erb" "index.json.jbuilder")
+
+ ("/home/andrew/development/took-my-pill/db/migrate/" (22250 44255 461308 907000) "20160317131055_add_placebo_to_pill_taken_events.rb" "../" "./" "20160201032954_create_pill_taken_events.rb")
+
+ ("/home/andrew/development/took-my-pill/db/" (22250 44232 720935 46000) "seeds.rb" "../" "./" "migrate/" "schema.rb")
+
+ ("/home/andrew/development/took-my-pill/" (22250 43991 32911 371000) "Gemfile" "app/" "README.rdoc" "lib/" "test/" ".git/" "Rakefile" ".gitignore" "bin/" "vendor/" "public/" "log/" "../" "./" "tmp/" "config.ru" "Gemfile.lock" "config/" "db/")
+
+ ("/home/andrew/development/took-my-pill/app/models/" (22250 44009 836250 673000) "../" "./" "pill_taken_event.rb" "concerns/" ".keep")
+
+ ("/home/andrew/development/took-my-pill/config/locales/" (22190 55768 970401 309000) "en.bootstrap.yml" "en.yml" "../" "./")
+
+ ("/home/andrew/development/took-my-pill/app/controllers/" (22250 43580 523986 20000) "application_controller.rb" "../" "./" "placebo_events_controller.rb" "concerns/" "pill_taken_events_controller.rb")
+
+ ("/home/andrew/development/took-my-pill/config/" (22190 54020 75275 986000) "routes.rb" "environment.rb" "locales/" "database.yml" "environments/" "../" "./" "secrets.yml" "boot.rb" "initializers/" "application.rb")
+
+ ("/home/andrew/development/took-my-pill/app/" (22190 53511 272753 459000) "views/" "models/" "controllers/" "../" "./" "helpers/" "mailers/" "assets/")
+
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/" (22247 28599 647083 58000) ".nrepl-port" "src/" "resources/" "README.md" "test/" ".gitignore" "LICENSE" "../" "./" "project.clj" "dev-resources/" "target/" "CHANGELOG.md" ".hgignore" "doc/")
+
+ ("/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/" (22246 14768 755108 413000) "../" "./" "client/")
+
+ ("/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/core.clj/" (22246 14756 751252 239000) "../" "./")
+
+ ("/home/andrew/development/stockfighter/chock-a-block/" (22246 10412 540968 956000) "src/" "resources/" "README.md" "test/" ".git/" ".gitignore" "LICENSE" "../" "./" "project.clj" "dev-resources/" "target/" "CHANGELOG.md" ".hgignore" "doc/")
+
+ ("/home/andrew/development/stockfighter/chock-a-block/src/chock_a_block/client/" (22242 19645 303673 730000) "../" "./" "rest.clj")
+
+ ("/home/andrew/development/stockfighter/chock-a-block/src/" (22240 5668 123972 558000) "chock_a_block/" "../" "./")
+
+ ("/home/andrew/development/stockfighter/" (22240 5668 115972 678000) "java/" "chock-a-block/" "../" "./" "ruby/")
+
+ ("/home/andrew/development/stockfighter/ruby/" (22198 35057 622682 552000) "Gemfile" "../" "./" "test.rb" "Gemfile.lock")
+
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/src/nba_twitter_pbp/" (22233 782 236061 884000) "../" "./" "components/" "core.clj")
+
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/src/nba_twitter_pbp/components/" (22233 782 236061 884000) "twitter.clj" "logger.clj" "tester.clj" "../" "./")
+
+ ("/home/andrew/development/nba-stream/nba-twitter-pbp/src/" (22223 1285 880546 251000) "../" "./" "nba_twitter_pbp/")
+
+ ("/home/andrew/.emacs.d/customizations/" (22062 63496 57769 798000) "shell-integration.el" "ui.el" "setup-helm-dash.el" "setup-rails.el" "ui.el~" "editing.el" "setup-clojure.el" "../" "./" "setup-deft.el" "setup-magit.el" "elisp-editing.el" "navigation.el" "misc.el" "setup-ruby.el" "setup-js.el" "setup-markup-modes.el")
+
+ ("/home/andrew/development/nba-stream/" (22213 51092 773284 230000) "README.md" "nba-harvester/" ".git/" "../" "./" "nba-twitter-pbp/")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/unit/recipes/" (22199 42283 973011 195000) "default_spec.rb" "../" "./")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/unit/" (22199 42283 969011 225000) "recipes/" "../" "./")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/spec/" (22199 42283 973011 195000) "../" "./" "unit/" "spec_helper.rb")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/helpers/serverspec/" (22199 42283 965011 253000) "../" "./" "spec_helper.rb")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/helpers/" (22199 42283 961011 282000) "../" "./" "serverspec/")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/default/serverspec/" (22199 42283 969011 225000) "default_spec.rb" "../" "./")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/default/" (22199 42283 961011 282000) "../" "./" "serverspec/")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/integration/" (22199 42283 961011 282000) "../" "./" "helpers/" "default/")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/test/" (22199 42283 961011 282000) "integration/" "../" "./")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/recipes/" (22199 47374 163527 746000) "../" "./" "default.rb")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/templates/default/" (22199 47317 4301 708000) "../" "./" "index.html.erb")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/templates/" (22199 42471 435480 18000) "../" "./" "default/")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/learn_chef_apache2/" (22199 42471 435480 18000) "Berksfile" "README.md" "test/" ".git/" ".gitignore" ".kitchen.yml" "templates/" "recipes/" "../" "./" "chefignore" "spec/" "metadata.rb")
+
+ ("/home/andrew/development/chef-tutorial/cookbooks/" (22199 42283 913011 630000) "../" "./" "learn_chef_apache2/")
+
+ ("/home/andrew/development/chef-tutorial/" (22199 42267 901126 202000) "goodbye.rb" "../" "./" "cookbooks/" "webserver.rb" "nodes/" "badserver.rb" "hello.rb")
+
+ ("/home/andrew/development/stockfighter/java/" (22193 37353 275022 26000) "Test.class" "../" "./" "Test.java")
+
+ ("/home/andrew/development/om-tutorial/src/om_tutorial/" (22181 38497 428592 493000) "../" "./" "core.cljs")
+
+ ("/home/andrew/development/om-tutorial/src/" (22181 38491 840937 799000) "om_tutorial/" "../" "./")
+
+ ("/home/andrew/development/om-tutorial/" (22181 38491 840937 799000) "src/" "resources/" "../" "./" "script/" "project.clj")
+
+ ("/home/andrew/development/om-tutorial/resources/public/" (22181 38458 627541 466000) "../" "./" "index.html")
+
+ ("/home/andrew/development/om-tutorial/resources/" (22181 38445 300890 133000) "public/" "../" "./")
+
+ ("/home/andrew/development/om-tutorial/script/" (22181 38413 424982 927000) "../" "./" "figwheel.clj")
+
+ ("/home/andrew/development/nbaasg/" (22163 4952 731230 278000) ".git/" "nba_vote.py" "../" "./")
+
+ ("/home/andrew/development/nba-stream/nba-harvester/" (22073 31656 172231 79000) ".nrepl-port" "src/" "README.md" "test/" ".gitignore" "../" "./" "project.clj" "target/" ".hgignore")
+
+ ("/home/andrew/development/nba-stream/nba-harvester/src/nba_harvester/" (22070 51717 343278 48000) "play_by_play.clj" "scheduler.clj" "../" "./" "core.clj" "producer.clj" "scoreboard.clj")
+
+ ("/home/andrew/development/nba-stream/nba-harvester/src/" (22060 23997 599361 198000) "../" "./" "nba_harvester/")
+
+ ("/home/andrew/development/testapp/src/testapp/" (22060 8674 950798 462000) "../" "./" "core.clj")
+
+ ("/home/andrew/development/testapp/" (22060 9256 611289 515000) "src/" "resources/" "README.md" "test/" ".gitignore" "LICENSE" "../" "./" "project.clj" "dev-resources/" "target/" "CHANGELOG.md" ".hgignore" "doc/")
+
+ ("/home/andrew/.lein/" (22060 6911 429384 343000) "repl-history" "self-installs/" "../" "./")
+
+ ("/home/" (22059 52187 279905 938000) "andrew/" "../" "./")
+
+ ("/home/andrew/development/testapp/src/" (22060 6083 713513 902000) "../" "./" "testapp/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

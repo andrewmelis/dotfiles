@@ -1,50 +1,4 @@
 ls
-cd ..
-ls
-ls
-cd ..
-ls
-cd Downloads/
-ls
-cd tomorrow-theme-master/
-ls
-cd GNU\ Emacs/
-ls
-cat tomorrow-night-eighties-theme.el
-sudo apt-get install curl
-ls
-ls
-mkdir bin
-ls
-mv lein bin/
-export PATH=$PATH:~/bin
-cd bin/
-chmod 755 lein 
-lein
-./lein 
-ls
-cat lein 
-ls
-curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > lein 
-ls
-cat lein 
-lein
-cd ..
-export PATH=$PATH:~/bin/
-ls
-echo $PATH
-lein
-ls
-chmod 755 bin/lein 
-lein
-ls
-mkdir Development
-cd Development/
-lein new test-app
-ls
-ls
-cd
-ls
 cd development/
 ls
 lein -v
@@ -80,3 +34,95 @@ http https://www.raise.com
 ls
 ls -al
 ls
+ls
+go run main.go 
+go run klajsdflkajds lkjasldkfjasd
+go run main.go klajsdflkajds lkjasldkfjasd
+go run main.go klajsdflkajds lkjasldkfjasd
+go run main.go klajsdflkajds lkjasldkfjasd
+go run main.go klajsdflkajds lkjasldkfjasd
+cd ..
+ls
+go run echo1/main.go klajsdflkajds lkjasldkfjasd
+go run echo2/main.go klajsdflkajds lkjasldkfjasd
+go run echo1/main.go klajsdflkajds lkjasldkfjasd
+go run echo2/main.go klajsdflkajds lkjasldkfjasd
+go run echo3/main.go klajsdflkajds lkjasldkfjasd
+go run echo3/main.go klajsdflkajds lkjasldkfjasd
+go run echo3/main.go klajsdflkajds lkjasldkfjasd
+go run echo3/main.go klajsdflkajds lkjasldkfjasd
+go run echo2/main.go klajsdflkajds lkjasldkfjasd
+go run echo1/main.go klajsdflkajds lkjasldkfjasd
+go run echo1/main.go klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf
+go run echo1/main.go klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f
+go run echo2/main.go klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f
+go run echo2/main.go klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f
+go run echo1/main.go klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f
+STR="klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f"
+STR
+echo $STR
+echo STR
+A="a"
+echo $A
+hello=value
+export $STR="klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f"hello=value
+echo $STR
+echo $$STR
+export STR="klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f"hello=value
+export STR="klajsdflkajds lkjasldkfjasd lkajsdflkadsj lkajsdflkja sdlkfj askasdkfj aksd jflkasdjf lkajsd flak jsdf popok 129i30192i30192i301  1920 i3pok ljsl kfjs lkasjf lkajsdlfkjasdlkfj alskdjflasjd flkasdj f"
+echo $STR
+ls
+go run echo1/main.go | tail -1; go run echo2/main.go | tail -1; go run echo3/main.go | tail -1
+go run echo1/main.go $STR| tail -1; go run echo2/main.go $STR | tail -1; go run echo3/main.go $STR | tail -1
+go run echo1/main.go $STR
+go run echo1/main.go $STR| tail -1; go run echo2/main.go $STR | tail -1; go run echo3/main.go $STR | tail -1
+go run echo1/main.go $STR| tail -1; go run echo2/main.go $STR | tail -1; go run echo3/main.go $STR | tail -1
+go run echo3/main.go 
+go run echo3/main.go 
+go run echo3/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+go run echo2/main.go  lkajsdflkjasl jasldkjf
+echo "hello\nhello" | uniq
+ls
+echo dup1/main.go 
+for run {1..3} do echo run done
+go run dup1/main.go 
+go run dup1/main.go 
+echo "hello"; echo "hello"
+go run dup1/main.go echo "hello"; echo "hello"
+go run dup1/main.go echo "hello"; echo "hello";
+go run dup1/main.go echo "hello"; echo "hello";;
+go run dup1/main.go echo "hello"; echo "hello"; echo "cool"; echo "cool";
+go run dup1/main.go echo "hello"; echo "hello"; echo "cool"; echo "cool"
+go run dup1/main.go echo "hello"; echo "hello"; echo "cool"; echo "cool"
+go run dup1/main.go echo "hello"; echo "hello"; echo "cool"; echo "cool"
+go run dup1/main.go echo "hello"; echo "hello"; echo "cool"; echo "cool"
+go run dup1/main.go
+ls
+touch test-input
+echo "hello" >> test-input 
+echo "hello" >> test-input 
+echo "hello" >> test-input 
+echo "hello2" >> test-input 
+echo "cool" >> test-input 
+echo "cool" >> test-input 
+echo "cool2" >> test-input 
+echo "cool" >> test-input 
+go run dup1/main.go test-input 
+cat test-input | go run dup1/main.go
+cat test-input 
+cat test-input | go run dup1/main.go
+cat test-input
+cat test-input | unqi
+cat test-input | uniq
+cat test-input | sort | uniq
+cat test-input | go run dup1/main.go
+cat test-input | go run dup1/main.go
+cat test-input | go run dup1/main.go
+cat test-input | go run dup1/main.go
+cat test-input | go run dup1/main.go
+cat test-input | go run dup1/main.go
