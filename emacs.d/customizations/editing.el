@@ -71,7 +71,6 @@
 
 ;; (setq electric-indent-mode nil)
 
-
 (defun yank-full-filepath ()
   "Put the current file name on the clipboard"
   (interactive)
