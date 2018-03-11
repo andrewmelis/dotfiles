@@ -2,13 +2,14 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "PREF" "ID=826217406b186f10:U=218b913cce93186e:FF=0:TM=1429195933:LM=1429195946:S=2SJwKTz85wo37pvj" "15-Apr-2017 14:52:26.00 GMT" "/" ".google.com" nil]))
+ '((".raise.com"
+  [url-cookie "__cfduid" "d08e82d59e34182a529b7ac6da8831e4c1516746113" "23 Jan 19 22:21:53 [GMT]" "/" ".raise.com" nil]
+  [url-cookie "HttpOnly" nil "23 Jan 19 22:21:53 [GMT]" "/" ".raise.com" nil]))
 )
 (setq url-cookie-secure-storage
  '((".github.com"
-  [url-cookie "logged_in" "no" "Sun, 17 Aug 2036 17:30:09 -0000" "/" ".github.com" t]
-  [url-cookie "HttpOnly" nil "Sun, 17 Aug 2036 17:30:09 -0000" "/" ".github.com" t]))
+  [url-cookie "HttpOnly" nil "Sun, 17 Aug 2036 17:30:09 -0000" "/" ".github.com" t]
+  [url-cookie "logged_in" "no" "Sun, 17 Aug 2036 17:30:09 -0000" "/" ".github.com" t]))
 )
 
 ;; Local Variables:

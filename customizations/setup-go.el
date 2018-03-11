@@ -20,4 +20,6 @@
     (view-mode)
     (linum-mode -1)))
 
+;; LOL, guru doesn't work
 ;; (require '/Users/andrewmelis/dev/personal/go/bin/guru)
+(require 'go-guru)
