@@ -16,7 +16,7 @@
 (show-paren-mode 1)
 
 ;; Highlight current line
-(global-hl-line-mode 1)
+;; (global-hl-line-mode 1)
 
 ;; Interactive search key bindings. By default, C-s runs
 ;; isearch-forward, so this swaps the bindings.
@@ -83,4 +83,7 @@
         (insert filename)
         (clipboard-kill-region (point-min) (point-max)))
       (message filename))))
+
+(setq comint-buffer-maximum-size 2048)
+(add-hook 'comint-output-filter-functions 'comint-truncate-buffer)
 

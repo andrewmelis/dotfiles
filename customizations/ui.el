@@ -23,7 +23,7 @@
 (winner-mode 1)
 
 ;; Use windmove package (shift+arrows to move around windows)
-(windmove-default-keybindings)
+;; (windmove-default-keybindings)
 
 ;; Piggyback framemove with windmove
 (require 'framemove)
@@ -52,15 +52,17 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-eighties t)
+;; (load-theme 'tomorrow-night-eighties-MINE t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 200)
+(set-face-attribute 'default nil :height 140)
+;; (set-face-attribute 'default nil :height 200)
+;; (set-face-attribute 'default nil :height 300) ; presentation-mode
 
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
-(setq initial-frame-alist '((top . 0) (left . 0) (width . 100) (height . 35)))
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 90) (height . 35)))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
@@ -93,3 +95,11 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; set C-O (that's capital 'o') to go to previous window
+;; reverse of C-o
+(defun other-window-back()
+  (interactive)
+  (other-window -1))
+
+(global-set-key (kbd "C-x O") 'other-window-back)
