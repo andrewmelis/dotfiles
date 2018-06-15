@@ -148,6 +148,7 @@
 (load "setup-rails.el")
 (load "setup-elixir.el")
 (load "setup-haskell.el")
+(load "setup-terraform.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
