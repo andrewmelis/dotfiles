@@ -4,8 +4,10 @@
 
 ;; Define package repositories
 (require 'package)
+(comment (add-to-list 'package-archives
+                      '("marmalade" . "http://marmalade-repo.org/packages/") t))
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
@@ -148,6 +150,7 @@
 (load "setup-rails.el")
 (load "setup-elixir.el")
 (load "setup-haskell.el")
+;; (load "setup-org.el")
 (load "setup-terraform.el")
 
 (custom-set-variables
@@ -197,10 +200,12 @@
  '(line-number-mode nil)
  '(magit-highlight-indentation (quote (("" . tabs) ("" . tabs))))
  '(magit-item-highlight-face (quote bold))
+ '(markdown-command "pandoc -f gfm")
+ '(markdown-unordered-list-item-prefix "  - ")
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term markdown-mode magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
+    (bats-mode markdown-mode go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
  '(show-paren-mode t)

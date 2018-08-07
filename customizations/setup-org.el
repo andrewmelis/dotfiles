@@ -8,3 +8,5 @@
  'org-babel-load-languages
  '((emacs-lisp . t)
    (sh . t)))
+
+(setq org-agenda-files (list "~/Notes"))
