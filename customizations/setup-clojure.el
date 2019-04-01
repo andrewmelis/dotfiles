@@ -3,7 +3,7 @@
 ;;;;
 
 ;; Enable paredit for Clojure
-;; (add-hook 'clojure-mode-hook 'enable-paredit-mode)
+(add-hook 'clojure-mode-hook 'enable-paredit-mode)
 
 ;; This is useful for working with camel-case tokens, like names of
 ;; Java classes (e.g. JavaClassName)
@@ -11,19 +11,6 @@
 
 ;; A little more syntax highlighting
 (require 'clojure-mode-extra-font-locking)
-
-;; syntax hilighting for midje
-(add-hook 'clojure-mode-hook
-          (lambda ()
-            (setq inferior-lisp-program "lein repl")
-            (font-lock-add-keywords
-             nil
-             '(("(\\(facts?\\)"
-                (1 font-lock-keyword-face))
-               ("(\\(background?\\)"
-                (1 font-lock-keyword-face))))
-            (define-clojure-indent (fact 1))
-            (define-clojure-indent (facts 1))))
 
 ;;;;
 ;; Cider
@@ -33,7 +20,7 @@
 ;; (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 
 ;; go right to the REPL buffer when it's finished connecting
-(setq cider-repl-pop-to-buffer-on-connect t)
+;; (setq cider-repl-pop-to-buffer-on-connect t)
 
 ;; When there's a cider error, show its buffer and switch to it
 (setq cider-show-error-buffer t)
@@ -44,6 +31,9 @@
 
 ;; Wrap when navigating history.
 (setq cider-repl-wrap-history t)
+
+;; Use docker for lein
+(setq cider-lein-command "docker run -v \"$PWD\":\"$PWD\" -w \"$PWD\" -it -p 8080:47480 jehrhardt/lein repl :headless")
 
 ;; enable paredit in your REPL
 ;; (add-hook 'cider-repl-mode-hook 'paredit-mode)
@@ -57,13 +47,13 @@
 
 ;; key bindings
 ;; these help me out with the way I usually develop web apps
-(defun cider-start-http-server ()
-  (interactive)
-  (cider-load-current-buffer)
-  (let ((ns (cider-current-ns)))
-    (cider-repl-set-ns ns)
-    (cider-interactive-eval (format "(println '(def server (%s/start))) (println 'server)" ns))
-    (cider-interactive-eval (format "(def server (%s/start)) (println server)" ns))))
+;; (defun cider-start-http-server ()
+;;   (interactive)
+;;   (cider-load-current-buffer)
+;;   (let ((ns (cider-current-ns)))
+;;     (cider-repl-set-ns ns)
+;;     (cider-interactive-eval (format "(println '(def server (%s/start))) (println 'server)" ns))
+;;     (cider-interactive-eval (format "(def server (%s/start)) (println server)" ns))))
 
 
 (defun cider-refresh ()

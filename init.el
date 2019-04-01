@@ -4,8 +4,8 @@
 
 ;; Define package repositories
 (require 'package)
-(comment (add-to-list 'package-archives
-                      '("marmalade" . "http://marmalade-repo.org/packages/") t))
+;; (comment (add-to-list 'package-archives
+;;                       '("marmalade" . "http://marmalade-repo.org/packages/") t))
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
@@ -177,6 +177,7 @@
  '(global-linum-mode t)
  '(global-rbenv-mode t)
  '(global-subword-mode t)
+ '(gofmt-args (quote ("-s")))
  '(haskell-process-type (quote cabal-repl))
  '(haskell-stylish-on-save t)
  '(ibuffer-saved-filter-groups nil)
@@ -205,7 +206,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (bats-mode markdown-mode go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
+    (cider bats-mode markdown-mode go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term magit kibit-helper jump ido-ubiquitous helm-swoop helm-dash haml-mode graphviz-dot-mode go-eldoc framemove feature-mode exec-path-from-shell deft color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet clj-refactor base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
  '(show-paren-mode t)

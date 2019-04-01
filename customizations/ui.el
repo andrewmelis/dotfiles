@@ -55,7 +55,8 @@
 ;; (load-theme 'tomorrow-night-eighties-MINE t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 120)
+(set-face-attribute 'default nil :height 140)
+;; (set-face-attribute 'default nil :height 150)
 ;; (set-face-attribute 'default nil :height 200)
 ;; (set-face-attribute 'default nil :height 300) ; presentation-mode
 
