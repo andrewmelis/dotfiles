@@ -32,9 +32,6 @@
 ;; Wrap when navigating history.
 (setq cider-repl-wrap-history t)
 
-;; Use docker for lein
-(setq cider-lein-command "docker run -v \"$PWD\":\"$PWD\" -w \"$PWD\" -it -p 8080:47480 jehrhardt/lein repl :headless")
-
 ;; enable paredit in your REPL
 ;; (add-hook 'cider-repl-mode-hook 'paredit-mode)
 
@@ -77,6 +74,7 @@
     ;; (clj-refactor-mode 1)
     (yas-minor-mode 1) ; for adding require/use/import statements
     ;; This choice of keybinding leaves cider-macroexpand-1 unbound
-    (cljr-add-keybindings-with-prefix "C-c C-m"))
+    ;; (cljr-add-keybindings-with-prefix "C-c C-m")
+    )
 
-(add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+;; (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
