@@ -104,3 +104,6 @@
   (other-window -1))
 
 (global-set-key (kbd "C-x O") 'other-window-back)
+
+;; allow highlighting of extra space
+(setq-default show-trailing-whitespace t)
