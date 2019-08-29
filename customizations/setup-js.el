@@ -20,3 +20,6 @@
             (setq coffee-cleanup-whitespace nil)))
 (custom-set-variables
  '(coffee-tab-width 2))
+
+;; react
+(add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
