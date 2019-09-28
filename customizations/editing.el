@@ -87,3 +87,6 @@
 (setq comint-buffer-maximum-size 2048)
 (add-hook 'comint-output-filter-functions 'comint-truncate-buffer)
 
+
+;; use dumb-jump everywhere
+(dumb-jump-mode)

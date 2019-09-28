@@ -2,7 +2,7 @@
 (add-to-list 'exec-path "/Users/andrewmelis/dev/personal/go")
 
 (add-hook 'before-save-hook 'gofmt-before-save)
-(add-hook 'go-mode-hook 'go-eldoc-setup)
+;; (add-hook 'go-mode-hook 'go-eldoc-setup)
 
 (global-subword-mode 1)
 
