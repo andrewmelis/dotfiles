@@ -8,8 +8,8 @@
 ;;                       '("marmalade" . "http://marmalade-repo.org/packages/") t))
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-;; (add-to-list 'package-archives
-;;              '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
 
 ;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
@@ -206,7 +206,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (dumb-jump rjsx-mode magit bats-mode markdown-mode go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term kibit-helper jump ido-ubiquitous helm-dash haml-mode framemove feature-mode exec-path-from-shell color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet base16-theme alchemist ag adoc-mode)))
+    (racket-mode dumb-jump rjsx-mode magit bats-mode markdown-mode go-guru nix-mode restclient evil scala-mode coffee-mode hindent haskell-mode mustache-mode nginx-mode auctex-latexmk helm-bibtex dockerfile-mode protobuf-mode helm-ag groovy-mode yaml-mode terraform-mode tagedit smex smartparens ruby-compilation rspec-mode rbenv rainbow-mode rainbow-delimiters rainbow-blocks projectile-rails org multi-term kibit-helper jump ido-ubiquitous helm-dash haml-mode framemove feature-mode exec-path-from-shell color-theme-tango color-theme-solarized clojure-mode-extra-font-locking clojure-cheatsheet base16-theme alchemist ag adoc-mode)))
  '(rbenv-show-active-ruby-in-modeline nil)
  '(rspec-use-rake-when-possible nil)
  '(show-paren-mode t)
